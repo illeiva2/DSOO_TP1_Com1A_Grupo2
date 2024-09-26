@@ -1,0 +1,14 @@
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.exe
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.deps.json
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.runtimeconfig.json
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.dll
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.pdb
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.AssemblyInfoInputs.cache
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.AssemblyInfo.cs
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.csproj.CoreCompileInputs.cache
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.dll
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\refint\DSOO_TP1_Com1A_Grupo2.dll
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.pdb
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.genruntimeconfig.cache
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\ref\DSOO_TP1_Com1A_Grupo2.dll

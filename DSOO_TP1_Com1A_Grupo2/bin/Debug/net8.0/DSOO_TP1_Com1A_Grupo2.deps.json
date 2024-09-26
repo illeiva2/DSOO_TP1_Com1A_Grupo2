@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DSOO_TP1_Com1A_Grupo2/1.0.0": {
+        "runtime": {
+          "DSOO_TP1_Com1A_Grupo2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DSOO_TP1_Com1A_Grupo2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

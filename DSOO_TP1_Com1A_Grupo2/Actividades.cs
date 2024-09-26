@@ -47,7 +47,7 @@ namespace DSOO_TP1_Com1A_Grupo2
         {
             foreach (Actividad actividad in actividades)
             {
-                Console.WriteLine("Nombre: " + actividad.getNombre() + " Costo: " + actividad.Costo + " Capacidad: " + actividad.Capacidad);
+                Console.WriteLine("Nombre: " + actividad.getNombre() );
             }
         }
     }

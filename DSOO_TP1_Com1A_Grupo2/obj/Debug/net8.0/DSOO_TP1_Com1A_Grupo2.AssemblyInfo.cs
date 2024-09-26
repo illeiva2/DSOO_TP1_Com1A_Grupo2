@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bde70302a90de5ff0863785431097bc07e362205")]
 [assembly: System.Reflection.AssemblyProductAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

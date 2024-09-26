@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\romin\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\romin\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Actividades.cs",
+              "DocumentMoniker": "C:\\Users\\romin\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
+              "RelativeDocumentMoniker": "DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
+              "ToolTip": "C:\\Users\\romin\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
+              "RelativeToolTip": "DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T22:22:57.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

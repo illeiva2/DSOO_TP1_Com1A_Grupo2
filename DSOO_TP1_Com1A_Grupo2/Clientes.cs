@@ -15,21 +15,25 @@ namespace DSOO_TP1_Com1A_Grupo2
         {
             clientes = new List<Cliente>();
         }
-        public Cliente? buscarCliente(string dni)
+        public Cliente? buscarCliente(string dni, bool nuevo)
         {
-            foreach (Cliente cliente in clientes)
+            if (!nuevo)
             {
-                if (cliente.Dni == dni)
+                foreach (Cliente cliente in clientes)
                 {
-                    return cliente;
+                    if (cliente.Dni == dni)
+                    {
+                        return cliente;
+                    }
                 }
+                Console.WriteLine("SOCIO INEXISTENTE");
+                return null;
             }
-            Console.WriteLine("No se encontro el cliente");
             return null;
         }
-        public bool altaSocio(string nombre, string apellido, string email, string dni, string telefono)
+        public bool altaSocio(string nombre, string apellido, string email, string dni, string telefono, bool nuevo)
         {
-            if (buscarCliente(nombre) == null)
+            if (buscarCliente(nombre, nuevo) == null)
             {
                 id++;
                 clientes.Add(new Cliente(id, nombre, apellido, email, dni, telefono));
@@ -39,7 +43,7 @@ namespace DSOO_TP1_Com1A_Grupo2
         }
         public bool eliminarCliente(string dni)
         {
-            Cliente? cliente = buscarCliente(dni);
+            Cliente? cliente = buscarCliente(dni, false);
             if (cliente != null)
             {
                 clientes.Remove(cliente);
@@ -49,52 +53,11 @@ namespace DSOO_TP1_Com1A_Grupo2
         }
         public void listarClientes()
         {
+            Console.WriteLine("\n\nLista de clientes:");
             foreach (Cliente cliente in clientes)
             {
-                Console.WriteLine("Nombre: " + cliente.Nombre + " Apellido: " + cliente.Apellido);
+                Console.WriteLine("\t\t\tNombre: " + cliente.Nombre + " Apellido: " + cliente.Apellido);
             }
-        }
-        public void inscribirClienteActividad(string dni, string actividad)
-        {
-            Cliente? cliente = buscarCliente(dni);
-            if (cliente != null)
-            {
-                Actividad? act = ClubDeportivo.listaActividades.buscarActividad(actividad);
-                if (act != null)
-                {
-                    if (cliente.actividades.Count == 0)
-                    {
-                        act.Capacidad--;
-                        cliente.inscribirActividad(act);
-                        Console.WriteLine("INSCRIPCION EXITOSA");
-                        return;
-                    }
-                    else if (cliente.actividades.Count >= 3)
-                    {
-                        Console.WriteLine("TOPE DE ACTIVIDADES ALCANZADO");
-                        return;
-                    }
-                    else
-                    {
-                        foreach (Actividad activida in cliente.actividades)
-                        {
-                            if (activida.getNombre() == actividad)
-                            {
-                                Console.WriteLine("EL CLIENTE YA ESTA INSCRIPTO EN ESTA ACTIVIDAD");
-                                return;
-                            }
-                        }
-                        act.Capacidad--;
-                        cliente.inscribirActividad(act);
-                        Console.WriteLine("INSCRIPCION EXITOSA");
-                        return;
-                    }
-                }
-                Console.WriteLine("ACTIVIDAD INEXISTENTE");
-                return;
-            }
-            Console.WriteLine("SOCIO INEXISTENTE");
-            return;
         }
     }
 }

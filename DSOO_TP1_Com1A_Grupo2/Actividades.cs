@@ -12,7 +12,19 @@ namespace DSOO_TP1_Com1A_Grupo2
         public Actividades()
         {
             actividades = new List<Actividad>();
+            cargarActividades();
         }
+        public void cargarActividades()
+        {
+            agregarActividad("Natacion", 100, 10);
+            agregarActividad("Voley", 150, 15);
+            agregarActividad("Futbol", 200, 20);
+            agregarActividad("Basquet", 250, 25);
+            agregarActividad("Handball", 300, 30);
+            agregarActividad("Rugby", 350, 35);
+            agregarActividad("Tenis", 400, 40);
+            agregarActividad("Golf", 450, 45);
+        }        
         public Actividad? buscarActividad(string nombre)
         {
             foreach (Actividad actividad in actividades)

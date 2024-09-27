@@ -1,23 +1,13 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace DSOO_TP1_Com1A_Grupo2
+﻿namespace DSOO_TP1_Com1A_Grupo2
 {
     internal class ClubDeportivo
     {
-        public static Actividades listaActividades = new();
         static void Main(string[] args)
         {
-            listaActividades.agregarActividad("Natacion", 100, 10);
-            listaActividades.agregarActividad("Voley", 150, 15);
-            listaActividades.agregarActividad("Futbol", 200, 20);
-            listaActividades.agregarActividad("Basquet", 250, 25);
-            listaActividades.agregarActividad("Handball", 300, 30);
-            listaActividades.agregarActividad("Rugby", 350, 35);
-            listaActividades.agregarActividad("Tenis", 400, 40);
-            listaActividades.agregarActividad("Golf", 450, 45);
+            Actividades actividades = new();
             Clientes clientes = new();
             int opcion = 0;
-            while (opcion != 7)
+            while (opcion != 6)
             {
                 Console.WriteLine("Bienvenido al Club Deportivo");
                 Console.WriteLine("1. Agregar Cliente");
@@ -25,8 +15,16 @@ namespace DSOO_TP1_Com1A_Grupo2
                 Console.WriteLine("3. Listar Clientes");
                 Console.WriteLine("4. Inscribir cliente a una actividad");
                 Console.WriteLine("5. Listar actividades de un cliente");
-                Console.WriteLine("7. Salir");
-                opcion = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("6. Salir");
+                try
+                {
+                    opcion = Convert.ToInt32(Console.ReadLine());
+
+                }
+                catch
+                {
+                    opcion = 0;
+                }
                 switch (opcion)
                 {
                     case 1:
@@ -34,7 +32,6 @@ namespace DSOO_TP1_Com1A_Grupo2
 
                         Console.Write("Nombre: ");
                         string? nombre = Console.ReadLine();
-                        Console.Clear();
                         while (string.IsNullOrEmpty(nombre))
                         {
                             Console.WriteLine("El nombre no puede estar vacío.");
@@ -65,7 +62,6 @@ namespace DSOO_TP1_Com1A_Grupo2
                             Console.Write("Dni: ");
                             dni = Console.ReadLine();
                         }
-
                         Console.Write("Teléfono: ");
                         string? telefono = Console.ReadLine();
                         while (string.IsNullOrEmpty(telefono))
@@ -74,13 +70,14 @@ namespace DSOO_TP1_Com1A_Grupo2
                             Console.Write("Telefono: ");
                             telefono = Console.ReadLine();
                         }
-                        if (clientes.altaSocio(nombre, apellido, email, dni, telefono))
+                        Console.Clear();
+                        if (clientes.altaSocio(nombre, apellido, email, dni, telefono, true))
                         {
-                            Console.WriteLine("Cliente agregado correctamente");
+                            imprimirMensaje("\n\nCliente agregado correctamente");
                         }
                         else
                         {
-                            Console.WriteLine("El cliente ya existe");
+                            imprimirMensaje("El cliente ya existe");
                         }
                         break;
                     case 2:
@@ -94,15 +91,18 @@ namespace DSOO_TP1_Com1A_Grupo2
                         }
                         if (clientes.eliminarCliente(dni))
                         {
-                            Console.WriteLine("Cliente eliminado correctamente");
+                            imprimirMensaje("Cliente eliminado correctamente");
                         }
                         else
                         {
-                            Console.WriteLine("El cliente no existe");
+                            imprimirMensaje("El cliente no existe");
                         }
                         break;
                     case 3:
                         clientes.listarClientes();
+                        Console.WriteLine("\n\nPresione cualquier tecla para continuar...");
+                        Console.ReadKey();
+                        Console.Clear();
                         break;
                     case 4:
                         Console.Write("Ingrese el dni del cliente: ");
@@ -121,23 +121,85 @@ namespace DSOO_TP1_Com1A_Grupo2
                             Console.Write("Ingrese el nombre de la actividad: ");
                             actividad = Console.ReadLine();
                         }
-                        clientes.inscribirClienteActividad(dni, actividad);
+                        inscribirActividad(dni, actividad);
                         break;
-                        case 5:
-                        Console.WriteLine("Ingrese el nombre del cliente");
-                        nombre = Console.ReadLine();
-                        while (string.IsNullOrEmpty(nombre))
+                    case 5:
+                        Console.WriteLine("Ingrese el dni del cliente");
+                        dni = Console.ReadLine();
+                        while (string.IsNullOrEmpty(dni))
                         {
                             Console.WriteLine("Por favor ingrese un valor.");
                             Console.Write("Ingrese el nombre del cliente: ");
-                            actividad = Console.ReadLine();
+                            dni = Console.ReadLine();
                         }
-                        Cliente? cliente = clientes.buscarCliente(nombre);
-                        cliente.listarActividades();
+                        Cliente? cliente = clientes.buscarCliente(dni, false);
+                        if (cliente != null)
+                        {
+                            cliente.listarActividades();
+                        }
                         break;
-                    case 7:
+                    case 6:
                         break;
+                    default:
+                        {
+                            imprimirMensaje("Ingrese un numero válido");
+                            break;
+                        }
                 }
+            }
+            void imprimirMensaje(string mensaje)
+            {
+                Console.WriteLine(mensaje);
+                Thread.Sleep(2000);
+                Console.Clear();
+            }
+            void inscribirActividad(string dni, string actividad)
+            {
+                Cliente? cliente = clientes.buscarCliente(dni, false);
+                if (cliente != null)
+                {
+                    Actividad? act = actividades.buscarActividad(actividad);
+                    if (act != null)
+                    {
+                        if (cliente.actividades.Count == 0)
+                        {
+                            act.Capacidad--;
+                            cliente.inscribirActividad(act);
+                            imprimirMensaje("INSCRIPCION EXITOSA");
+                            return;
+                        }
+                        else if (act.Capacidad == 0)
+                        {
+                            Console.WriteLine("NO HAY CAPACIDAD EN LA ACTIVIDAD " + act.getNombre());
+                            Thread.Sleep(2000);
+                            Console.Clear();
+                        }
+                        else if (cliente.actividades.Count >= 3)
+                        {
+                            imprimirMensaje("TOPE DE ACTIVIDADES ALCANZADO");
+                            return;
+                        }
+                        else
+                        {
+                            foreach (Actividad activida in cliente.actividades)
+                            {
+                                if (activida.getNombre() == actividad)
+                                {
+                                    imprimirMensaje("EL CLIENTE YA ESTA INSCRIPTO EN ESTA ACTIVIDAD");
+                                    return;
+                                }
+                            }
+                            act.Capacidad--;
+                            cliente.inscribirActividad(act);
+                            imprimirMensaje("INSCRIPCION EXITOSA");
+                            return;
+                        }
+                    }
+                    imprimirMensaje("ACTIVIDAD INEXISTENTE");
+                    return;
+                }
+                imprimirMensaje("SOCIO INEXISTENTE");
+                return;
             }
         }
     }

@@ -33,16 +33,16 @@ namespace DSOO_TP1_Com1A_Grupo2
             }
             return false;
         }
-        public bool eliminarActividad(string nombre)
-        {
-            Actividad? actividad = buscarActividad(nombre);
-            if (actividad != null)
-            {
-                actividades.Remove(actividad);
-                return true;
-            }
-            return false;
-        }
+        //public bool eliminarActividad(string nombre)
+        //{
+        //    Actividad? actividad = buscarActividad(nombre);
+        //    if (actividad != null)
+        //    {
+        //        actividades.Remove(actividad);
+        //        return true;
+        //    }
+        //    return false;
+        //}
         public void listarActividades()
         {
             foreach (Actividad actividad in actividades)

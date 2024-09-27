@@ -12,3 +12,4 @@ C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debu
 C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.pdb
 C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.genruntimeconfig.cache
 C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\ref\DSOO_TP1_Com1A_Grupo2.dll
+C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.sourcelink.json

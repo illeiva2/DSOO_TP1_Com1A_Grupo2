@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35a8b1e3aee1cbc40e195eb6a3d50e1e6f2defa7")]
+=======
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bde70302a90de5ff0863785431097bc07e362205")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

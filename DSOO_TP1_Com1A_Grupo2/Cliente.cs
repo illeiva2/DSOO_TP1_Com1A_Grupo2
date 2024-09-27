@@ -32,10 +32,10 @@ namespace DSOO_TP1_Com1A_Grupo2
         }
         public void listarActividades()
         {
-            Console.WriteLine("Actividades de " + nombre + " " + apellido);
+            Console.WriteLine("Actividades de " + nombre + " " + apellido + ": \n");
             foreach (Actividad actividad in actividades)
             {
-                Console.WriteLine("Nombre: " + actividad.getNombre() + " Costo: " + actividad.Costo + " Capacidad: " + actividad.Capacidad);
+                Console.WriteLine("\tNombre: " + actividad.getNombre());
             }
         }
         public string? Nombre { get { return nombre; } set { nombre = value; } }

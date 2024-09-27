@@ -15,11 +15,11 @@ namespace DSOO_TP1_Com1A_Grupo2
         {
             clientes = new List<Cliente>();
         }
-        public Cliente? buscarCliente(string nombre)
+        public Cliente? buscarCliente(string dni)
         {
             foreach (Cliente cliente in clientes)
             {
-                if (cliente.Nombre == nombre)
+                if (cliente.Dni == dni)
                 {
                     return cliente;
                 }
@@ -51,12 +51,12 @@ namespace DSOO_TP1_Com1A_Grupo2
         {
             foreach (Cliente cliente in clientes)
             {
-                Console.WriteLine("Nombre: " + cliente.Nombre + " Apellido: " + cliente.Apellido + " Email: " + cliente.Email + " DNI: " + cliente.Dni + " Telefono: " + cliente.Telefono);
+                Console.WriteLine("Nombre: " + cliente.Nombre + " Apellido: " + cliente.Apellido);
             }
         }
-        public void inscribirClienteActividad(string nombre, string actividad)
+        public void inscribirClienteActividad(string dni, string actividad)
         {
-            Cliente? cliente = buscarCliente(nombre);
+            Cliente? cliente = buscarCliente(dni);
             if (cliente != null)
             {
                 Actividad? act = ClubDeportivo.listaActividades.buscarActividad(actividad);

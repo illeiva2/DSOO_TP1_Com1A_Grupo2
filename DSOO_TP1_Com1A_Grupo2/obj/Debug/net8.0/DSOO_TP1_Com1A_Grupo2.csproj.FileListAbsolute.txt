@@ -13,3 +13,18 @@ C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debu
 C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.genruntimeconfig.cache
 C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\ref\DSOO_TP1_Com1A_Grupo2.dll
 C:\Users\Illei\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.sourcelink.json
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.exe
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.deps.json
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.runtimeconfig.json
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.dll
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\bin\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.pdb
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.AssemblyInfoInputs.cache
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.AssemblyInfo.cs
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.csproj.CoreCompileInputs.cache
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.sourcelink.json
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.dll
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\refint\DSOO_TP1_Com1A_Grupo2.dll
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.pdb
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\DSOO_TP1_Com1A_Grupo2.genruntimeconfig.cache
+C:\Users\Ignacio Toledo\source\repos\DSOO_TP1_Com1A_Grupo2\DSOO_TP1_Com1A_Grupo2\obj\Debug\net8.0\ref\DSOO_TP1_Com1A_Grupo2.dll

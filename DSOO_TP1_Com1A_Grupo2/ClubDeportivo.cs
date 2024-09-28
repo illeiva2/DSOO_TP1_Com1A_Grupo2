@@ -108,7 +108,7 @@
         static void InscribirClienteActividad(Clientes clientes, Actividades actividades)
         {
             string dni = LeerEntrada("DNI del cliente");
-            string actividad = LeerEntrada("nombre de la actividad");
+            string actividad = LeerEntrada("Nombre de la actividad");
             inscribirActividad(dni, actividad, clientes, actividades);
         }
 

@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSOO_TP1_Com1A_Grupo2")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+45ec35ee2ab79d91c01c44529b00266c7709adde")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b13d97181ac8adf626b20b69fbffab68cecb23")]
 [assembly: System.Reflection.AssemblyProductAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSOO_TP1_Com1A_Grupo2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

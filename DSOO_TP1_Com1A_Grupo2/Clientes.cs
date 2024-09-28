@@ -26,7 +26,6 @@ namespace DSOO_TP1_Com1A_Grupo2
                         return cliente;
                     }
                 }
-                Console.WriteLine("SOCIO INEXISTENTE");
                 return null;
             }
             return null;

@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Illei\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\",
+  "WorkspaceRootPath": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\illei\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\clubdeportivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\ignacio toledo\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\clubdeportivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\clubdeportivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\illei\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\ignacio toledo\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\ignacio toledo\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\ignacio toledo\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\illei\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\actividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\ignacio toledo\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\actividad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|c:\\users\\ignacio toledo\\source\\repos\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DA57E5C6-E3C3-428F-8DAA-F85C43B81563}|DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj|solutionrelative:dsoo_tp1_com1a_grupo2\\dsoo_tp1_com1a_grupo2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "DSOO_TP1_Com1A_Grupo2",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj",
+              "RelativeDocumentMoniker": "DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj",
+              "RelativeToolTip": "DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-28T19:49:28.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Cliente.cs",
+              "RelativeDocumentMoniker": "DSOO_TP1_Com1A_Grupo2\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Cliente.cs",
+              "RelativeToolTip": "DSOO_TP1_Com1A_Grupo2\\Cliente.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:48:29.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Actividad.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividad.cs",
+              "RelativeDocumentMoniker": "DSOO_TP1_Com1A_Grupo2\\Actividad.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividad.cs",
+              "RelativeToolTip": "DSOO_TP1_Com1A_Grupo2\\Actividad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T19:48:37.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Clientes.cs",
-              "DocumentMoniker": "C:\\Users\\Illei\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Clientes.cs",
               "RelativeDocumentMoniker": "DSOO_TP1_Com1A_Grupo2\\Clientes.cs",
-              "ToolTip": "C:\\Users\\Illei\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Clientes.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Clientes.cs",
               "RelativeToolTip": "DSOO_TP1_Com1A_Grupo2\\Clientes.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwDoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T12:35:48.701Z",
               "EditorCaption": ""
@@ -41,27 +96,31 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClubDeportivo.cs",
-              "DocumentMoniker": "C:\\Users\\Illei\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\ClubDeportivo.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\ClubDeportivo.cs",
               "RelativeDocumentMoniker": "DSOO_TP1_Com1A_Grupo2\\ClubDeportivo.cs",
-              "ToolTip": "C:\\Users\\Illei\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\ClubDeportivo.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\ClubDeportivo.cs",
               "RelativeToolTip": "DSOO_TP1_Com1A_Grupo2\\ClubDeportivo.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAQwI0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwBYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T12:31:56.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Actividades.cs",
-              "DocumentMoniker": "C:\\Users\\Illei\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
+              "DocumentMoniker": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
               "RelativeDocumentMoniker": "DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
-              "ToolTip": "C:\\Users\\Illei\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
+              "ToolTip": "C:\\Users\\Ignacio Toledo\\source\\repos\\DSOO_TP1_Com1A_Grupo2\\DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
               "RelativeToolTip": "DSOO_TP1_Com1A_Grupo2\\Actividades.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T22:22:57.814Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }
